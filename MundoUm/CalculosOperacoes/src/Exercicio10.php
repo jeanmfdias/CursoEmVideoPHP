@@ -7,4 +7,4 @@ $cambioDolarParaReal = 5.45;
 
 $dinheiroEmDolar = $dinheiro / $cambioDolarParaReal;
 
-printf("Seu dinheiro em dolar: US$ %.2f\n", $dinheiroEmDolar);
+printf("Seu dinheiro em dolar: US$ " . number_format($dinheiroEmDolar, 2) . PHP_EOL);
